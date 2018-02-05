@@ -4,9 +4,9 @@
 %
 %This project involved recreating much of the work done in our professor's
 %paper on a distributed algorithm for sensor localization (U. A. Khan, S. 
-%Kar, and J. M. F. Moura, ìLinear theory for self-localization: Convexity, 
-%barycentric coordinates, and Cayley-Menger determinants,î IEEE Access, 
-%vol. 3, pp. 1326ñ1339, Aug. 2015).
+%Kar, and J. M. F. Moura, ‚ÄúLinear theory for self-localization: Convexity, 
+%barycentric coordinates, and Cayley-Menger determinants,‚Äù IEEE Access, 
+%vol. 3, pp. 1326‚Äì1339, Aug. 2015).
 %The first part of the project was a report where we went through most of
 %the math to veryify the method. The second part of the project was 4
 %different MATLAB simulations. The first simulation was an implimentation
@@ -56,7 +56,7 @@ plot(p(:,1),p(:,2),'o','Color','b','Linewidth',3)
 for i=1:numNodes
     plot(x(i,:),y(i,:),'--x','Color','b')
 end
-title(['Loction of Points Over Time r=',num2str(r),' numNodes=',num2str(numNodes),' m=',num2str(m)])
+title(['Location of Points Over Time r=',num2str(r),' numNodes=',num2str(numNodes),' m=',num2str(m)])
 legend('Anchors','True Location','Estimate Location')
 
 
